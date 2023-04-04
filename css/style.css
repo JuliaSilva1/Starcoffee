@@ -1,0 +1,121 @@
+/*para criar variavel coloca a tag root*/
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Edu+NSW+ACT+Foundation:wght@500&family=Libre+Baskerville:wght@700&family=Passion+One:wght@700&family=Roboto:wght@300;700&family=Rubik+Iso&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 5px;
+   
+}
+.cabecalho > nav > img{
+    height: 60px;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+ a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-weight: 600;
+}
+.botão{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.botão-2{
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    margin: 3px;
+    padding: 5px;
+}
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main > img{
+    width: 100%;
+}
+.texto-1{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.texto-2{
+    background-color: aquamarine;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom:10px ; 
+     
+}
+.texto-2>.img-1{
+    width: 50%;
+    height: 50%;
+}
+.img-1{
+    width: 200px;
+    height: 400px;
+}
+.div2 {
+    text-align: center;
+    margin: 0 auto;
+}  
+footer{
+    border-top: 2px solid rgba(99, 98, 96, 0.466);
+     
+     text-decoration: none;
+     
+     padding-left: 10px;
+}
+li{
+    list-style-type: none;
+}
+footer > .icons{
+    display: flex;
+    justify-content: center;
+}
+.div2 > p {
+    margin-bottom: 10px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+}
+.div4{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.div3 > ul > li{
+    margin: 20px;
+}
